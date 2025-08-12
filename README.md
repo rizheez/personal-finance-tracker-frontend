@@ -1,35 +1,21 @@
-# vue
+# Personal Finance Tracker – Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and modern web application to help users manage their personal finances.  
+Track income, expenses, and view financial summaries with an intuitive interface.
 
-## Recommended IDE Setup
+## ✨ Features
+- Add, edit, and delete transactions
+- Categorize income and expenses
+- Search and filter transactions
+- Responsive and user-friendly design
+- Integration with backend API for real-time data
 
-[VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur).
+## 🛠️ Built With
+- [Vue 3](https://vuejs.org/) – Progressive JavaScript framework
+- [Vite](https://vitejs.dev/) – Lightning-fast development build tool
+- [Pinia](https://pinia.vuejs.org/) – State management
+- [Vuetify](https://vuetifyjs.com/) – Material Design component framework
+- [Materio Admin Template](https://themeselection.com/item/materio-vuetify-vuejs-admin-template/) – UI template based on Vuetify
+- [Axios](https://axios-http.com/) – HTTP client for API requests
 
-## Type Support for `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates.
-
-However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can run `Volar: Switch TS Plugin on/off` from VS Code command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+---
