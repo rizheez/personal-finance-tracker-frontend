@@ -193,7 +193,6 @@
                   v-for="tx in recentTransactions"
                   :key="tx.id"
                   class="rounded-lg mb-2"
-                  style="background-color: #f9fafb"
                 >
                   <template #prepend>
                     <VAvatar
@@ -204,7 +203,7 @@
                     </VAvatar>
                   </template>
                   <VListItemTitle class="font-weight-medium">
-                    {{ tx.name }}
+                    <span class="text-truncate">{{ tx.name }}</span>
                   </VListItemTitle>
                   <VListItemSubtitle> {{ tx.category.name }} · {{ formatDate(tx.date) }} </VListItemSubtitle>
                   <template #append>
